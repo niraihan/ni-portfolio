@@ -7,26 +7,39 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+/* header  */
+.header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+    /* padding-bottom: 130px ; */
+    
+    
+}
 /* nav styles   */
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0px 200px;
 }
 .nav-title{
     font-weight: 800;
     font-size: 45px;
+    color: black;
 
 }
 /* shared style */
+
+
 .btn-one{
     font-size: 20px;
     background-color: #FD6E0A;
     border-color: rgb(65, 18, 18);
     font-weight: bold;
     color: white;
-    padding: 18px 25px;
+    padding: 18px 35px;
     border-radius: 5px;
 }
  .ih{
@@ -49,6 +62,7 @@ nav ul li a{
 .banner{
     display: flex;
     justify-content: space-between;
+    margin: 0px 30px 0px 200px;
 }
 .banner-one{
     max-width: 580px;
@@ -60,7 +74,7 @@ nav ul li a{
     
 }
 .name{
-font-size: 85px;
+font-size: 80px;
 font-weight: bold;
 color:#181818;
 /* background-color: red */
@@ -72,6 +86,57 @@ color:#181818;
 
 }
 .photo-one{
-    width: 480px;
+    width: 580px;
 
+}
+.photo-two{
+   background-position: top left;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color:#757575 ;
+
+}
+.secondary-bg{
+    color: #FFF8F3;
+}
+/* main style*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/* about style */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    color: #181818;
+}
+.text-center{
+    text-align: center;
+}
+/* skills section styles  */
+.skills-container{
+display: flex;
+gap: 24px  ;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    /* text-align: left; */
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
